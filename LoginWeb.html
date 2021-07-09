@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+  font-family: fantasy, 'Segoe UI';
+  margin: 0;
+  padding: 50;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    color: black;
+    border-radius: 0px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    background: whitesmoke;
+    border-radius: 40px;
+}
+.text{
+   display: flex;
+   border-radius: 5px;
+   width: 150x;
+   height: 20px
+}
+
+.button {
+    color: white;
+    background: black;
+    width: 150px;
+    border-radius: 5px;
+}
+    </style>
+    <title>LoginWeb</title>
+</head>
+<body>
+    <div class = "container">
+        <div class ="content">
+            <h1>Sign In</h1>
+            <input type="text" class="text" placeholder="Username" required="">
+            <input type="password" class="text" placeholder="Password" required="">
+            <button class ="button" type="Submit">Login</button>
+        </div>
+    </div>
+    
+</body>
+</html>
